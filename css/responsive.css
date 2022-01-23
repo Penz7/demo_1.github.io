@@ -1,0 +1,102 @@
+@media (max-width: 840px) {
+  #hero {
+    padding: 50px 30px;
+  }
+
+  #hero .hero-content {
+    width: 400px;
+  }
+
+  #hero img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #post {
+    padding: 20px 30px;
+  }
+
+  #feature {
+    padding: 20px 30px;
+    margin-bottom: 50px;
+    height: 40vh;
+  }
+
+  #blog {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  #hero {
+    flex-direction: column-reverse;
+  }
+
+  #hero img {
+    margin: 30px 0;
+  }
+
+  #hero .hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .post-details {
+    flex-direction: column;
+  }
+
+  .post-details .post-box {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #feature {
+    height: 70vh;
+  }
+
+  #feature .feature-work {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #feature .feature-details {
+    align-items: center;
+  }
+
+  #feature .feature-details {
+    text-align: center;
+  }
+
+  #feature .feature-pagination {
+    display: none;
+  }
+
+  #feature .feature-container .feature__detail {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  #post .post-content {
+    margin: 0;
+  }
+
+  /* Blog */
+  #blog {
+    padding: 50px 30px;
+  }
+  /* Work */
+
+  .work-details .work-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-details .work-box .work-detail {
+    text-align: center;
+  }
+}
